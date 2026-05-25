@@ -12,7 +12,7 @@ namespace RipaBot
     internal class Program
     {
 
-        public static ITelegramBotClient Bot = new TelegramBotClient("6131063078:AAFJdme_MILLu6nfe7u7fUc66LZU-N5c2zs");
+        public static ITelegramBotClient Bot = new TelegramBotClient("");
         public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
             Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(update));
